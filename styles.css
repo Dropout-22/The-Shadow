@@ -187,6 +187,22 @@ button[type="submit"]:hover {
   margin-top: 3rem;
 }
 
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    font-size: 28px;
+    color: #c73939;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
 /* 📱 Mobile First Adjustments */
 @media (max-width: 768px) {
   body {
