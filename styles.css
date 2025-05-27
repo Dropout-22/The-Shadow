@@ -1,3 +1,4 @@
+/* Base Reset */
 body {
   background-color: #121212;
   color: #eee;
@@ -12,6 +13,7 @@ body {
   text-align: center;
 }
 
+/* Headings and Text */
 h1 {
   font-size: 3rem;
   margin-bottom: 0.2rem;
@@ -28,17 +30,18 @@ p.lead {
 p {
   font-size: 1rem;
   margin-bottom: 1rem;
-  max-width: 400px;
+  max-width: 600px;
   line-height: 1.5;
   color: #ccc;
 }
 
+/* Buttons */
 .buttons {
   display: flex;
-  gap: 1rem;
-  margin-top: 2rem;
   flex-wrap: wrap;
+  gap: 1rem;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 a.button {
@@ -55,15 +58,7 @@ a.button:hover {
   background-color: #d03b3b;
 }
 
-@media (max-width: 480px) {
-  h1 {
-    font-size: 2.2rem;
-  }
-  p.lead {
-    font-size: 1rem;
-  }
-}
-
+/* Chapter Page */
 .chapter-page {
   background-color: #181818;
   color: #e2e2e2;
@@ -74,14 +69,17 @@ a.button:hover {
   max-width: 700px;
   margin: auto;
   text-align: left;
+  padding: 0 20px;
 }
 
+/* Meta Info */
 .meta {
   font-size: 0.9rem;
   color: #888;
   margin-bottom: 1.5rem;
 }
 
+/* Story Text */
 .story-content p {
   font-size: 1.1rem;
   line-height: 1.7;
@@ -94,6 +92,7 @@ a.button:hover {
   border-top: 1px solid #333;
 }
 
+/* Form Page */
 .form-page {
   background-color: #121212;
   color: #eee;
@@ -105,14 +104,15 @@ a.button:hover {
 }
 
 .form-container {
-  max-width: 600px;
   width: 100%;
+  max-width: 600px;
   background-color: #1f1f1f;
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
 }
 
+/* Form Elements */
 form {
   display: flex;
   flex-direction: column;
@@ -154,6 +154,7 @@ button[type="submit"]:hover {
   background-color: #c73939;
 }
 
+/* Chapter Navigation */
 .nav-page {
   background-color: #121212;
   color: #eee;
@@ -184,4 +185,60 @@ button[type="submit"]:hover {
 
 .nav-actions {
   margin-top: 3rem;
+}
+
+/* 📱 Mobile First Adjustments */
+@media (max-width: 768px) {
+  body {
+    padding: 16px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  p.lead {
+    font-size: 1.1rem;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .form-container {
+    padding: 1.5rem;
+  }
+
+  input, textarea {
+    font-size: 0.95rem;
+  }
+
+  a.button {
+    padding: 0.65rem 1.25rem;
+    font-size: 0.95rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+
+  .chapter-list a {
+    font-size: 1rem;
+  }
+
+  button[type="submit"] {
+    font-size: 0.95rem;
+  }
 }
