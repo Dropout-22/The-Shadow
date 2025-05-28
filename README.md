@@ -46,8 +46,6 @@ An interactive, open-ended storytelling platform where:
 │ ├── chapter1.html
 │ └── chapter2.html
 ├── submit.html # User submission form
-├── js/
-│ └── chapterNav.js # JS for dynamic nav
 ├── styles.css # Main styles
 └── README.md # This file
 
