@@ -16,6 +16,14 @@ An interactive, open-ended storytelling platform where:
 
 ---
 
+## 📚 Current Features
+- Chapter navigation
+- Responsive design (Dark mode vibes)
+- Submission form for fan chapters
+- Static hosting via GitHub Pages
+
+---
+
 ## 🛠 Tech Stack
 
 - **HTML5 / CSS3 / JavaScript**
@@ -77,6 +85,13 @@ This is an evolving universe — and everyone’s voice matters.
 ## 🧠 License
 
 [MIT](LICENSE)
+
+This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
+
+> You are free to share and adapt the material, as long as you give proper credit and **don’t use it for commercial purposes**.
+
+For full details, read the LICENSE file or visit  
+👉 [creativecommons.org/licenses/by-nc/4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ---
 
